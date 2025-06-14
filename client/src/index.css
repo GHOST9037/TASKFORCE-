@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background: #000000 !important;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a, .MuiLink-root {
+  color: #00ff9d;
+}
+
+a:hover, .MuiLink-root:hover {
+  color: #00cc7e;
+}
+
+button, .MuiButton-root {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+/* Optional: style scrollbars for dark mode */
+::-webkit-scrollbar {
+  width: 8px;
+  background: #1a1a1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #00ff9d;
+  border-radius: 4px;
+} 
